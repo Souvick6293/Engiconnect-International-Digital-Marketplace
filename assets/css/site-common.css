@@ -1,0 +1,105 @@
+html,body{
+	overflow-x:hidden;
+    position: relative;
+}
+h1 {}
+
+h2 {
+	font-family: 'LEMON MILK Rg';
+	font-size: 52px;
+	color: #2f2f2f;
+}
+
+h2 strong {
+	font-family: 'LEMON MILK Bold';
+	color: #166fa7;
+}
+/****************** SITE COMMON PART ***************/
+.common-button {
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: inherit;
+	color: #000;
+	text-decoration: none;
+	background: transparent;
+	background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 8px, transparent 8px) 0% 0%/10px 10px no-repeat,
+		radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 8px, transparent 8px) 100% 0%/10px 10px no-repeat,
+		radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 8px, transparent 8px) 0% 100%/10px 10px no-repeat,
+		radial-gradient(circle at 0 0, #ffffff 0, #ffffff 8px, transparent 8px) 100% 100%/10px 10px no-repeat,
+		linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 20px) no-repeat,
+		linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 20px) calc(100% - 4px) no-repeat,
+		linear-gradient(#1da6fe 1%, #125d8c 100%);
+	border-radius: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	min-width: 210px;
+	text-align: center;
+}
+
+.common-button:hover {
+	text-decoration: none;
+	background: rgb(30, 167, 255);
+	background: -moz-linear-gradient(90deg, rgba(30, 167, 255, 1) 0%, rgba(22, 112, 168, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(30, 167, 255, 1) 0%, rgba(22, 112, 168, 1) 100%);
+	background: linear-gradient(90deg, rgba(30, 167, 255, 1) 0%, rgba(22, 112, 168, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ea7ff", endColorstr="#1670a8", GradientType=1);
+	color: #ffffff;
+}
+
+.gradient-button {
+	background: rgb(30, 167, 255);
+	background: -moz-linear-gradient(90deg, rgba(30, 167, 255, 1) 0%, rgba(22, 112, 168, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(30, 167, 255, 1) 0%, rgba(22, 112, 168, 1) 100%);
+	background: linear-gradient(90deg, rgba(30, 167, 255, 1) 0%, rgba(22, 112, 168, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ea7ff", endColorstr="#1670a8", GradientType=1);
+	color: #ffffff;
+}
+
+.gradient-button:hover {
+	background: #fff;
+	color: #000;
+}
+.common-button.gradient-button.gradient-button-orange{
+	background: linear-gradient(135deg, rgba(255,179,1,1) 0%,rgba(255,178,0,1) 47%,rgba(215,116,0,1) 100%);
+}
+.common-bg-style {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.inner-banner-area h1{
+	font-size:31px;
+	color:#fff;
+	font-family: 'LEMON MILK Bold';
+	padding-left:15%;
+	text-shadow: 3px 2px 2px rgba(0,0,0,0.6);
+}
+.inner-banner-area p{
+	font-family: 'LEMON MILK Rg';
+	font-size:18px;
+	text-transform:uppercase;
+	color:#fff;
+	padding-left:15%;
+	margin:0px;
+}
+.banner-area.inner-banner-area{
+	min-height:277px;
+}
+.banner-area.inner-banner-area-type-two{
+	min-height:433px;
+}
+.banner-area.inner-banner-area-type-three{
+	min-height:324px;
+}
+.common-arrow{
+	width:auto;
+	height:auto;
+	margin:0px;
+}
+.common-arrow:after{
+	display:none;
+}
+a:hover{
+	text-decoration:none;
+}

@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>CART</title>
+		<!-- all css-->		
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/swiper.css">
+		<link rel="stylesheet" href="assets/css/site-common.css">
+		<link rel="stylesheet" href="assets/css/fonts.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/mediaquery.css">
+		<!-- min js-->
+		<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>	
+	</head>
+	<body>	
+		<header class="site-header">
+			<div class="header-top-bar">
+				<div class="container">
+					<div class="header-logo-area d-flex justify-content-between align-items-center">
+						<div class="site-logo">
+							<a href="1.Home.html"><img src="assets/images/site-logo.png"  alt=""></a>
+						</div>
+						<div class="hedaer-right-side-icon d-none d-lg-flex align-items-center">
+							<div class="epic-logo">
+							<a href="#"><img src="assets/images/epic-logo.png"  alt=""></a>
+							</div>
+							<div class="doc-logo">
+								<a href="#"><img src="assets/images/doc-logo.png"  alt=""></a>
+							</div>
+						</div>
+						<div class="mobile-right-side d-flex d-lg-none">
+							<div class="mobile-serach-icon">
+								<a href="javascript:void(0)"><img src="assets/images/search3260.png" border="0" alt=""></a>
+							</div>
+							<div class="mobile-login">
+								<a href="#"><img src="assets/images/login-(1)v3260.png" border="0" alt=""></a>
+							</div>
+							<div class="mobile-nav-bar">
+								<img src="assets/images/shopping-bag-(4)-copy3260.png" border="0" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-menu-bar">
+				<div class="container">
+					<div class="menu-bar-wrapper d-lg-flex justify-content-between align-items-center">
+						<div class="d-lg-flex align-items-center">
+							<div class="menu-bar">
+								<ul class="dextop-menu">
+									<li><a href="">Home</a></li>
+									<li><a href="">Engiconnect</a></li>
+									<li class="has-submenu"><a href="">Our Verticals</a>
+										<ul>
+											<li><a href="15.verticals-buyers.html">Hand Tools</a></li>
+											<li><a href="15.verticals-buyers.html">Bicycles</a></li>
+											<li><a href="15.verticals-buyers.html">Pumps and Valves</a></li>
+											<li><a href="15.verticals-buyers.html">Fasteners</a></li>
+										</ul>
+									</li>
+									<li><a href="">Contact</a></li>
+									<li><a href="https://eepcindia.org/"><img src="assets/images/eepc-india.png" width="114" height="14" border="0" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="serch-area">
+								<form>
+									<input type="text" name="" class="header-search" placeholder="EngiSearch">
+									<button><img src="assets/images/magnifying-glass17260.png" width="16" height="16" border="0" alt=""></button>
+								</form>
+							</div>
+						</div>
+						<div class="header-icons-area">
+							<ul>
+								<li>
+									<a href="#"><img src="assets/images/login.png" border="0" alt=""></a>
+									<div class="notification-count">2</div>
+									<span class="tooltiptext">Notification</span>
+								</li>
+								<li class="profile">
+									<a href="9.basic-info.html"><img src="assets/images/profile.png" border="0" alt=""></a>
+									<span class="tooltiptext">Profile</span>
+								</li>
+								<li>
+									<a href="14.wishlist.html"><img src="assets/images/wishlist.png" border="0" alt=""></a>
+									<span class="tooltiptext">Wishlist</span>
+								</li>
+								<li>
+									<a href="10.cart.html"><img src="assets/images/cart-icon.png" border="0" alt=""></a>
+									<div class="notification-count">3</div>
+									<span class="tooltiptext">Cart</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dashboare-area d-lg-none">
+				<div class="left-panel buyers-profile-area">
+					<div class="logo-and-info">
+						<div class="profile-logo">
+							<img src="assets/images/buyer-profile-view-image.png" alt="">
+						</div>
+						<h2>Amrit Saha</h2>
+						<p>Kirloskar Brothers Limited</p>
+						
+					</div>
+					<ul class="left-nav-area">
+						<li><a href="" class="active"><span class=""><img src="assets/images/line-profile-icon.png" border="0" alt=""></span>Your Profile</a></li>
+						<li><a href=""><span class=""><img src="assets/images/Inquired-Products.png" border="0" alt=""></span>Your Inquiries</a></li>
+						<li><a href=""><span class=""><img src="assets/images/Chat-History.png" alt=""></span>Chat History</a></li>
+						<li><a href=""><span class=""><img src="assets/images/logout.png" alt=""></span>Logout</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main>
+		<section class="buyer-signup-area wishlist-area">
+			<div class="container">
+				<div class="buyer-signup-wrapper cart-product-wrapper mx-auto">
+					<h1>Cart</h1>
+					<div class="cart-products-heading d-lg-flex d-none justify-content-between">
+						<h5>Item</h5>
+						<h5>Qty</h5>
+					</div>
+					<div class="each-cart-item">
+						<div class="each-cart-item-top">
+							<div class="cart-item-top d-flex justify-content-between">
+								<div class="cart-item-image">
+									<img src="assets/images/cart1.jpg" border="0" alt="">
+								</div>
+								<div class="cart-item-details w-100">
+									<div class="cart-item-details-top d-md-flex justify-content-between">
+										<div class="cart-item-details-top-left">
+											<p>PUMPS SPARES</p>
+											<h4>MECHANICAL SEAL</h4>
+										</div>
+										<div class="cart-item-details-top-right d-flex align-items-center">
+											<p>Qty.</p>
+											<input name="quantity" type="text" value="1">
+										</div>
+									</div>
+									<div class="cart-item-details-bottom d-flex justify-content-between">
+										<div class="cart-item-details-bottom-left">
+											<div class="code-area">
+												<p><strong>ITC HS code</strong>841391</p>
+												<p><strong>Other ITC HS code</strong>84842000</p>
+											</div>
+										</div>
+										<div class="cart-item-details-bottom-right">
+											<div class="code-area">
+												<p><strong>Date of issue</strong>05/09/2022</p>
+												<p><strong>Date of expiry</strong>13/08/2024</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="each-cart-items-bottom d-flex">
+							<div><a href="#">Remove</a></div>
+							<div><a href="#">add to wishlist</a></div>
+						</div>
+					</div>
+					<div class="each-cart-item">
+						<div class="each-cart-item-top">
+							<div class="cart-item-top d-flex justify-content-between">
+								<div class="cart-item-image">
+									<img src="assets/images/cart1.jpg" border="0" alt="">
+								</div>
+								<div class="cart-item-details w-100">
+									<div class="cart-item-details-top d-md-flex justify-content-between">
+										<div class="cart-item-details-top-left">
+											<p>PUMPS SPARES</p>
+											<h4>MECHANICAL SEAL</h4>
+										</div>
+										<div class="cart-item-details-top-right d-flex align-items-center">
+											<p>Qty.</p>
+											<input name="quantity" type="text" value="1">
+										</div>
+									</div>
+									<div class="cart-item-details-bottom d-flex justify-content-between">
+										<div class="cart-item-details-bottom-left">
+											<div class="code-area">
+												<p><strong>ITC HS code</strong>841391</p>
+												<p><strong>Other ITC HS code</strong>84842000</p>
+											</div>
+										</div>
+										<div class="cart-item-details-bottom-right">
+											<div class="code-area">
+												<p><strong>Date of issue</strong>05/09/2022</p>
+												<p><strong>Date of expiry</strong>13/08/2024</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="each-cart-items-bottom d-flex">
+							<div><a href="#">Remove</a></div>
+							<div><a href="#">add to wishlist</a></div>
+						</div>
+					</div>
+					<div class="send-enqury-button text-center">
+						<a href="javascript:void(0)" class="common-button gradient-button" data-toggle="modal" data-target="#exampleModalLong"><img src="assets/images/info-button3912.png"  border="0" alt="">send inquiry</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<p>Your inquiry has been sucessfully sent.</p>
+						<p><strong>Inquiry No: 286489292</strong></p>
+						<p>Please check your email for more information.</p>
+						<a href="">Continue</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="best-selling-product inquired-products">
+			<div class="container">
+				<div class="seller-heading text-center">
+					<h2>Most inquired products</h2>
+				</div>
+				<div class="best-selling-product-slider-area position-relative">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image position-relative">
+										<img src="assets/images/pdt-1.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>Fluid Handling pro</p>
+										<h3>Pump Control Ball Valve</h3>
+										<h6>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-2.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>chemlinindia</p>
+										<h3>Orifice Gate Type Flow Control Valve</h3>
+										<h6>Lorem ipsum dolor sit amet</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-3.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>chemlinindia</p>
+										<h3>Horizontal Centrifugal Pumps</h3>
+										<h6>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-4.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>Tech Mech Engineering</p>
+										<h3>Chemical Process  Centrifugal Pumps</h3>
+										<h6>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-5.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>Hydro Prokav Pumps India</p>
+										<h3>PROKAV Industrial Pumps</h3>
+										<h6>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-1.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>Fluid Handling pro</p>
+										<h3>Pump Control Ball Valve</h3>
+										<h6>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-2.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>chemlinindia</p>
+										<h3>Orifice Gate Type Flow Control Valve</h3>
+										<h6>Lorem ipsum dolor sit amet</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-3.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>chemlinindia</p>
+										<h3>Horizontal Centrifugal Pumps</h3>
+										<h6>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-4.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>Tech Mech Engineering</p>
+										<h3>Chemical Process  Centrifugal Pumps</h3>
+										<h6>Lorem ipsum dolor sit amet</h6>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="each-selling-product">
+									<div class="each-selling-product-image">
+										<img src="assets/images/pdt-5.jpg" border="0" alt="">
+									</div>
+									<div class="each-selling-product-content text-center">
+										<p>Hydro Prokav Pumps India</p>
+										<h3>PROKAV Industrial Pumps</h3>
+										<h6>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next common-arrow"><img src="assets/images/right-arrow.png" border="0" alt=""></div>
+					<div class="swiper-button-prev common-arrow"><img src="assets/images/left-arrow.png" border="0" alt=""></div>
+				</div>
+			</div>
+		</section>
+		</main>
+		<footer class="footer-area">
+			<div class="container">
+				<div class="footer-area-wrapper d-lg-flex justify-content-between">
+					<div class="each-footer-info">
+						<h3>Official info</h3>
+						<ul>
+							<li>
+								<div class="icon-area"><img src="assets/images/Address.png" border="0" alt=""></div>
+								<div class="content-area">
+									<a href="">'Vanijya Bhawan', 1st Floor International Trade <br> Facilitation Centre 1/1, Wood Street Kolkata <br>700016</a>
+								</div>
+							</li>
+							<li>
+								<div class="icon-area"><img src="assets/images/phone.png" border="0" alt=""></div>
+								<div class="content-area">
+									<a href="">(+91 33) 22890651/52</a>
+								</div>
+							</li>
+							<li>
+								<div class="icon-area"><img src="assets/images/phone-2.png" border="0" alt=""></div>
+								<div class="content-area">
+									<a href="">(+91 33) 22890654</a>
+								</div>
+							</li>
+							<li>
+								<div class="icon-area"><img src="assets/images/email.png" border="0" alt=""></div>
+								<div class="content-area">
+									<a href="">eepcho@eepcindia.net</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="each-footer-info">
+						<h3>Our Verticals</h3>
+						<div class="footer-verticals-icons-wrapper">
+							<div class="d-flex verticals-icons-wrapper">
+								<div class="each-footer-vertical-icons">
+									<div class="text-center">
+										<img src="assets/images/pngwing10780.png" border="0" alt="">
+										<h4>Hand tools</h4>
+									</div>
+								</div>
+								<div class="each-footer-vertical-icons">
+									<div class="text-center">
+										<img src="assets/images/pngwing1-10780.png" border="0" alt="">
+										<h4>Bicycles</h4>
+									</div>
+								</div>
+							</div>
+							<div class="d-flex verticals-icons-wrapper">
+								<div class="each-footer-vertical-icons">
+									<div class="text-center">
+										<img src="assets/images/pngwing2-10780.png" border="0" alt="">
+										<h4>pumps and valves</h4>
+									</div>
+								</div>
+								<div class="each-footer-vertical-icons">
+									<div class="text-center">
+										<img src="assets/images/pngwing3-10780.png" border="0" alt="">
+										<h4>fasteners</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="each-footer-info quick-links">
+						<h3>Official info</h3>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Registration</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Download</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Terms of Use</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/swiper.js"></script>
+		<script src="assets/js/custom.js"></script>	
+	</body>
+</html>
